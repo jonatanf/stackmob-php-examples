@@ -133,8 +133,6 @@ $body = NULL;
 $endpoint = "$rest_endpoint/$uri_info_path";
 $params = NULL;
 
-
-
 echo "endpoint: " . $endpoint . "<br/>";
 
 $consumer = new OAuthConsumer($consumer_key, $consumer_secret, NULL);
